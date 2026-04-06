@@ -11,3 +11,8 @@ int main()
 	
 	printf("fahrenhit = %d\n", fahrenhit);
 }
+/*
+Output:
+Enter value of celsius: 0
+fahrenhit: 32
+*/
