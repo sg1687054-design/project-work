@@ -42,3 +42,7 @@ if(grade >= 'A' && grade <= 'D'){
     }
 return 0;
 }
+
+/*
+output :- enter your score (0-100):99
+*/
