@@ -16,7 +16,7 @@ int main()
 	printf("enter value of DA");
 	scanf("%d",&DA);
 	
-	gross_salary = base_salary + HRA + DA + TA; 
+	gross_salary = base_salary + ((HRA * base_salary) / 100) +  ((DA * base_salary) / 100) +  ((TA * base_salary) / 100); 
 	
 	printf("gross_salary = %d\n", gross_salary);
 }
